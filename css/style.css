@@ -52,7 +52,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   font-size: 14px;
-  color: #6f6f6f;
+  color: #959597;
   font-weight: 400;
   line-height: 24px;
 }
@@ -64,7 +64,7 @@ html {
 a,
 a:active,
 a:focus {
-  color: #6f6f6f;
+  color: #959597;
   text-decoration: none;
 }
 a:hover,
@@ -193,16 +193,16 @@ dl {
   background: #dbdbdb;
 }
 ::-webkit-input-placeholder {
-  color: #6f6f6f;
+  color: #959597;
   text-overflow: ellipsis;
 }
 ::-moz-placeholder {
-  color: #6f6f6f;
+  color: #959597;
   text-overflow: ellipsis;
   opacity: 1;
 }
 :-ms-input-placeholder {
-  color: #6f6f6f;
+  color: #959597;
   text-overflow: ellipsis;
   opacity: 1;
 }
@@ -11794,7 +11794,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {
   border: none;
   padding: 0 0 2px 0;
   display: inline;
-  color: #6f6f6f;
+  color: #959597;
   margin: 0;
   border-bottom: 1px solid transparent;
 }
@@ -14440,28 +14440,28 @@ a img.aligncenter {
 
 /* footer input */
 footer input::-webkit-input-placeholder {
-  color: #6f6f6f;
+  color: #959597;
   text-overflow: ellipsis;
   font-size: 11px;
   font-weight: 400;
   opacity: 1;
 }
 footer input::-moz-placeholder {
-  color: #6f6f6f;
+  color: #959597;
   text-overflow: ellipsis;
   font-size: 11px;
   font-weight: 400;
   opacity: 1;
 }
 footer input:-ms-input-placeholder {
-  color: #6f6f6f;
+  color: #959597;
   text-overflow: ellipsis;
   font-size: 11px;
   font-weight: 400;
   opacity: 1;
 }
 footer .newsletter input {
-  color: #6f6f6f;
+  color: #959597;
   letter-spacing: normal;
 }
 
@@ -15224,14 +15224,14 @@ aside .latest-post li figure {
   vertical-align: middle;
   position: relative;
   top: -1px;
-  color: #6f6f6f;
+  color: #959597;
 }
 .all-demo i {
   font-size: 15px;
   vertical-align: middle;
   position: relative;
   top: -1px;
-  color: #6f6f6f;
+  color: #959597;
 }
 .buy-theme:hover,
 .all-demo:hover {
