@@ -64,13 +64,11 @@ html {
 a,
 a:active,
 a:focus {
-  color: #959597;
-  text-decoration: none;
+  color: #ff214f;
 }
 a:hover,
 a:active {
-  color: #ff214f;
-  text-decoration: none;
+  color: #ffffff;
 }
 a:focus,
 a:active,
@@ -276,7 +274,7 @@ h6 {
 }
 .text-extra-large {
   font-size: 20px;
-  line-height: 26px;
+  line-height: 28px;
 }
 .title-large {
   font-size: 100px;
