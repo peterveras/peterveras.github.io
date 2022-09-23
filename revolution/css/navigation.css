@@ -1034,7 +1034,7 @@ website:    http://www.themepunch.com
   -ms-filter: "progid:dximagetransform.microsoft.alpha(opacity=0)";
   filter: alpha(opacity=0);
   -moz-opacity: 0.0;
-  -khtml-opacity: 0.0;
+  -khtms-opacity: 0.0;
   opacity: 0.0;
   -webkit-transform: rotatey(-90deg);
   transform: rotatey(-90deg);
@@ -1054,7 +1054,7 @@ website:    http://www.themepunch.com
    -ms-filter: "progid:dximagetransform.microsoft.alpha(opacity=100)";
   filter: alpha(opacity=100);
   -moz-opacity: 1;
-  -khtml-opacity: 1;
+  -khtms-opacity: 1;
   opacity: 1;  
     -webkit-transform: rotatey(0deg);
   transform: rotatey(0deg);

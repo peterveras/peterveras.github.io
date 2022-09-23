@@ -404,6 +404,9 @@
 
                         $("li.dropdown", this).on("mouseenter", function () {
                             var _this = this;
+                            /** iPad scroll issue - start **/
+                            $('.re-open').removeClass('re-open');
+                            /** iPad scroll issue - end **/
 
         $( '.side-left-menu-close' ).addClass( 'active' );
         
