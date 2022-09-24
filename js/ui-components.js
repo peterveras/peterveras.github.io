@@ -34,7 +34,7 @@ class MyHeader extends HTMLElement{
                             <!-- end menu item -->
                             <!-- start menu item -->
                             <li>
-                                <a href="About.html">About</a>
+                                <a href="about.html">About</a>
                             </li>
                             <!-- end menu item -->
                             <!-- start menu item -->
