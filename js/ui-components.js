@@ -1,4 +1,4 @@
-/* HEADER */
+/* HEADER NAVIGATION */
 class MyHeader extends HTMLElement{
 
     connectedCallback() {

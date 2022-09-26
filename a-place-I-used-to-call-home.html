@@ -58,6 +58,17 @@
 
         gtag('config', 'G-PYL7MGSBRT');
     </script>
+    <!-- CSS needed for Language Script -->
+    <style>
+        div[lang] {
+            display: none;
+        }
+
+        div[lang].lang-match {
+
+            display: block;
+        }
+    </style>
 
 </head>
 
@@ -70,14 +81,27 @@
         <div class="container-fluid">
             <div class="row padding-100px-top">
                 <div class="col-12 col-lg-8 col-md-10 mx-auto text-center last-paragraph-no-margin pb-5">
-                    <h5 class="alt-font text-white font-weight-400">A place I used to call home</h5>
-                    <p class="w-80 mx-auto d-inline-block sm-w-100 text-extra-light-gray text-medium">Early on I took
-                        photos with the pure intention of not forgetting the streets of my city but is only until now;
-                        that I have the photos in one place, that I realized what I was doing. These images were my way
-                        of soothing the nostalgia I feel for no longer calling Santa Cruz home. A decade has gone by
-                        since I left my city, and every time I remember it, I feel as if a train at a distance, filled
-                        with memories, approaches me until inevitably crushes me. This gallery was born out of that
-                        nostalgia that I carry everytime I remember Santa Cruz, Bolivia.</p>
+                    <div lang="en">
+                        <h5 data-key="title" class="alt-font text-white font-weight-400">A place I used to call home
+                        </h5>
+                        <p data-key="body"
+                            class="w-80 mx-auto d-inline-block sm-w-100 text-extra-light-gray text-medium">Early on I
+                            took
+                            photos with the pure intention of not forgetting the streets of my city but is only until
+                            now;
+                            that I have the photos in one place, that I realized what I was doing. These images were my
+                            way
+                            of soothing the nostalgia I feel for no longer calling Santa Cruz home. A decade has gone by
+                            since I left my city, and every time I remember it, I feel as if a train at a distance,
+                            filled
+                            with memories, approaches me until inevitably crushes me. This gallery was born out of that
+                            nostalgia that I carry everytime I remember Santa Cruz, Bolivia.</p>
+                    </div>
+                    <div lang="es">
+                        <h5 data-key="title" class="alt-font text-white font-weight-400">DEFAULT</h5>
+                        <p data-key="body"
+                            class="w-80 mx-auto d-inline-block sm-w-100 text-extra-light-gray text-medium">DEFAULT</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -324,6 +348,73 @@
     <script type="text/javascript" src="js/theme-vendors.min.js"></script>
     <!-- setting -->
     <script type="text/javascript" src="js/main.js"></script>
+    <!-- Language Scripts 1 of 2 -->
+    <script>
+        //language data... could come from an external js/json file
+        let langdata = {
+            "languages": {
+                "en": {
+                    "strings": {
+                        "title": "A place I used to call home",
+                        "body": "Early on I took photos with the pure intention of not forgetting the streets of my city but is only until now; that I have the photos in one place, that I realized what I was doing. These images were my way of soothing the nostalgia I feel for no longer calling Santa Cruz home. A decade has gone by since I left my city, and every time I remember it, I feel as if a train at a distance, filled with memories, approaches me until inevitably crushes me. This gallery was born out of that nostalgia that I carry everytime I remember Santa Cruz, Bolivia."
+                    }
+                },
+
+                "es": {
+                    "strings": {
+                        "title": "Un lugar que solía ser mi hogar",
+                        "body": "En un principio tomé estas fotos con el puro deseo de no olvidar las calles de mi ciudad, pero es solo hasta ahora; que tengo las fotos todas juntas, que me doy cuenta de lo que hacia. Estaba en busca de algo que me aliviara la tristeza que me da el ya no vivir en Santa Cruz, Bolivia. Han pasado diez años desde que deje mi tierra y cuado la nostalgia me vence, santa cruz se siente como si fuera un tren a la distancia, cargado de memorias que no dejan de acercarse. Hasta que, inevitablemente, me destruyen de un golpe. Esta galería nació de esa nostalgia que llevo conmigo cada vez que la recuerdo."
+                    }
+                },
+            }
+        }
+    </script>
+    <!-- Language Scripts 2 of 2 -->
+    <script>
+        //apply the language values to the content
+        document.addEventListener('DOMContentLoaded', () => {
+            //skip the lang value in the HTML tag for this example
+            let zones = document.querySelectorAll('html [lang]');
+            applyStrings(zones);
+
+            let lang = findLocaleMatch();
+            let container = document.querySelector(`html [lang*=${lang}]`);
+            container.className = 'lang-match';
+        });
+
+        function applyStrings(containers) {
+            containers.forEach(container => {
+                //find all the elements that have data-key
+                let locale = container.getAttribute('lang');
+                //console.log('looking inside of ', locale);
+                container.querySelectorAll(`[data-key]`).forEach(element => {
+                    let key = element.getAttribute('data-key');
+                    //console.log(element);
+                    //console.log(key);
+                    let lang = locale.substr(0, 2); //first 2 characters
+                    if (key) {
+                        element.textContent = langdata.languages[lang].strings[key];
+                    }
+                });
+            })
+        }
+
+        function findLocaleMatch() {
+            let keys = Object.keys(langdata.languages); //from our data
+            let locales = Intl.getCanonicalLocales(keys); //from our data validated
+
+            let lang = navigator.language; //from browser 
+            let locale = Intl.getCanonicalLocales(lang); //from browser validated
+            console.log('browser language', lang);
+            console.log('locales from data file', locale);
+
+            //find the match for locale inside locales
+            let langMatch = document.documentElement.getAttribute('lang'); //default
+            locales = locales.filter(l => locale == l);
+            langMatch = (locales.length > 0) ? locales[0] : langMatch;
+            return langMatch;
+        }
+    </script>
 </body>
 
 </html>
