@@ -193,8 +193,7 @@ class AllProjects extends HTMLElement{
                                     <div class="portfolio-hover-box align-middle">
                                         <div class="portfolio-hover-content position-relative">
                                             <span
-                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">New
-                                                Born</span>
+                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Newborn</span>
                                         </div>
                                     </div>
                                 </div>
@@ -337,8 +336,7 @@ class OtherProjects extends HTMLElement{
                                     <div class="portfolio-hover-box align-middle">
                                         <div class="portfolio-hover-content position-relative">
                                             <span
-                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">New
-                                                Born</span>
+                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Newborn</span>
                                         </div>
                                     </div>
                                 </div>
