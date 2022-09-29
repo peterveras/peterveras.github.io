@@ -10,7 +10,7 @@ class MyHeader extends HTMLElement{
             <div class="container-lg nav-header-container">
                 <!-- start logo -->
                 <div class="col-auto ps-0">
-                    <a href="index.html" title="Pofo" class="logo"><img src="images/logo-white.svg"
+                    <a href="index_ES.html" title="Pofo" class="logo"><img src="images/logo-white.svg"
                             data-at2x="images/logo-white.svg" class="logo-dark" alt="Pofo"><img
                             src="images/logo-white.svg" data-at2x="images/logo-white.svg" alt="Pofo"
                             class="logo-light default"></a>
@@ -29,17 +29,17 @@ class MyHeader extends HTMLElement{
                             data-in="animate__fadeIn" data-out="animate__fadeOut">
                             <!-- start menu item -->
                             <li>
-                                <a href="#Projects">Projects</a>
+                                <a href="#projects" data-tilt>proyectos</a>
                             </li>
                             <!-- end menu item -->
                             <!-- start menu item -->
                             <li>
-                                <a href="about.html">About</a>
+                                <a href="about_ES.html" data-tilt>Acerca de mi</a>
                             </li>
                             <!-- end menu item -->
                             <!-- start menu item -->
                             <li>
-                                <a href="index.html#contact">Contact</a>
+                                <a href="index_ES.html#contact" data-tilt>contacto</a>
                             </li>
                             <!-- end menu item -->
                             <!-- start menu item -->
@@ -57,7 +57,7 @@ class MyHeader extends HTMLElement{
                 </div>
                 <div class="col-auto pe-0">
                     <div class="header-social-icon d-none d-md-inline-block">
-                    <i class="fa fa-globe-americas text-white" aria-hidden="true"></i>&nbsp;&nbsp;
+                    <i class="fa fa-globe text-white" aria-hidden="true"></i>&nbsp;&nbsp;
                         
                         <a href="index_ES.html" title="Español"
                         rel="noreferrer">ES</a>&nbsp;&nbsp;&nbsp;<a href="index.html" title="English"
@@ -120,7 +120,7 @@ class AllProjects extends HTMLElement{
 
             <div class="row">
                 <div class="col-12 filter-content overflow-hidden">
-                    <h6 class="alt-font text-extra-dark-gray font-weight-400 letter-spacing-1 text-white text-center mb-6 pb-4">PROJECTS
+                    <h6 class="alt-font text-extra-dark-gray font-weight-400 letter-spacing-1 text-white text-center mb-6 pb-4">PROYECTOS
                     </h6>
                 </div>
             </div>
@@ -139,11 +139,11 @@ class AllProjects extends HTMLElement{
                             <img src="images/projects/Ichapekene-Piesta/L1000663.jpg"
                                 alt="Dylan the cool kid" />
                             <div class="portfolio-icon">
-                                <a href="Ichapekene-Piesta.html"><i class="fas fa-search text-extra-dark-gray"
+                                <a href="Ichapekene-Piesta_ES.html"><i class="fas fa-search text-extra-dark-gray"
                                         aria-hidden="true"></i></a>
                             </div>
                         </div>
-                        <a href="Ichapekene-Piesta.html">
+                        <a href="Ichapekene-Piesta_ES.html">
                             <figcaption class="bg-white">
                                 <div class="portfolio-hover-main text-center">
                                     <div class="portfolio-hover-box align-middle">
@@ -168,17 +168,17 @@ class AllProjects extends HTMLElement{
                         <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
                             <img src="images/projects/Portraits/L100066X.jpg" alt="Dylan the cool kid" />
                             <div class="portfolio-icon">
-                                <a href="portraits.html"><i class="fas fa-search text-extra-dark-gray"
+                                <a href="portraits_ES.html"><i class="fas fa-search text-extra-dark-gray"
                                         aria-hidden="true"></i></a>
                             </div>
                         </div>
-                        <a href="portraits.html">
+                        <a href="portraits_ES.html">
                             <figcaption class="bg-white">
                                 <div class="portfolio-hover-main text-center">
                                     <div class="portfolio-hover-box align-middle">
                                         <div class="portfolio-hover-content position-relative">
                                             <span
-                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Portraits</span>
+                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Rostros de personas</span>
                                         </div>
                                     </div>
                                 </div>
@@ -194,17 +194,17 @@ class AllProjects extends HTMLElement{
                         <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
                             <img src="images/projects/Newborn/L100066Z.jpg" alt="" />
                             <div class="portfolio-icon">
-                                <a href="Newborn.html"><i class="fas fa-search text-extra-dark-gray"
+                                <a href="Newborn_ES.html"><i class="fas fa-search text-extra-dark-gray"
                                         aria-hidden="true"></i></a>
                             </div>
                         </div>
-                        <a href="Newborn.html">
+                        <a href="Newborn_ES.html">
                             <figcaption class="bg-white">
                                 <div class="portfolio-hover-main text-center">
                                     <div class="portfolio-hover-box align-middle">
                                         <div class="portfolio-hover-content position-relative">
                                             <span
-                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Newborn</span>
+                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Recién Nacida</span>
                                         </div>
                                     </div>
                                 </div>
@@ -220,18 +220,17 @@ class AllProjects extends HTMLElement{
                         <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
                             <img src="images/projects/A-place-I-used-to-call-home/L100066L.jpg" alt="" />
                             <div class="portfolio-icon">
-                                <a href="a-place-I-used-to-call-home.html"><i
+                                <a href="a-place-I-used-to-call-home_ES.html"><i
                                         class="fas fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
                             </div>
                         </div>
-                        <a href="a-place-I-used-to-call-home.html">
+                        <a href="a-place-I-used-to-call-home_ES.html">
                             <figcaption class="bg-white">
                                 <div class="portfolio-hover-main text-center">
                                     <div class="portfolio-hover-box align-middle">
                                         <div class="portfolio-hover-content position-relative">
                                             <span
-                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">A
-                                                place I used to call home</span>
+                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Un lugar que solía ser mi hogar</span>
                                         </div>
                                     </div>
                                 </div>
@@ -258,12 +257,12 @@ class OtherProjects extends HTMLElement{
 
         this.innerHTML = `
  
-        <div class="container wow animate__fadeIn padding-90px-top padding-90px-bottom background-black md-padding-50px-top md-padding-50px-bottom sm-padding-30px-top sm-padding-30px-bottom"
+        <div class="container wow animate__fadeIn padding-90px-top no-padding-bottom background-black md-padding-50px-top md-padding-50px-bottom sm-padding-30px-top sm-padding-30px-bottom"
         id="projects">
 
             <div class="row">
                 <div class="col-12 filter-content overflow-hidden">
-                    <h6 class="alt-font text-extra-dark-gray font-weight-400 letter-spacing-1 text-white text-center mb-6 pb-4">OTHER PROJECTS
+                    <h6 class="alt-font text-extra-dark-gray font-weight-400 letter-spacing-1 text-white text-center mb-6 pb-4">PROYECTOS
                     </h6>
                 </div>
             </div>
@@ -282,11 +281,11 @@ class OtherProjects extends HTMLElement{
                             <img src="images/projects/Ichapekene-Piesta/L1000663.jpg"
                                 alt="Dylan the cool kid" />
                             <div class="portfolio-icon">
-                                <a href="Ichapekene-Piesta.html"><i class="fas fa-search text-extra-dark-gray"
+                                <a href="Ichapekene-Piesta_ES.html"><i class="fas fa-search text-extra-dark-gray"
                                         aria-hidden="true"></i></a>
                             </div>
                         </div>
-                        <a href="Ichapekene-Piesta.html">
+                        <a href="Ichapekene-Piesta_ES.html">
                             <figcaption class="bg-white">
                                 <div class="portfolio-hover-main text-center">
                                     <div class="portfolio-hover-box align-middle">
@@ -311,17 +310,17 @@ class OtherProjects extends HTMLElement{
                         <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
                             <img src="images/projects/Portraits/L100066X.jpg" alt="Dylan the cool kid" />
                             <div class="portfolio-icon">
-                                <a href="portraits.html"><i class="fas fa-search text-extra-dark-gray"
+                                <a href="portraits_ES.html"><i class="fas fa-search text-extra-dark-gray"
                                         aria-hidden="true"></i></a>
                             </div>
                         </div>
-                        <a href="portraits.html">
+                        <a href="portraits_ES.html">
                             <figcaption class="bg-white">
                                 <div class="portfolio-hover-main text-center">
                                     <div class="portfolio-hover-box align-middle">
                                         <div class="portfolio-hover-content position-relative">
                                             <span
-                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Portraits</span>
+                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Rostros de personas</span>
                                         </div>
                                     </div>
                                 </div>
@@ -337,17 +336,17 @@ class OtherProjects extends HTMLElement{
                         <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
                             <img src="images/projects/Newborn/L100066Z.jpg" alt="" />
                             <div class="portfolio-icon">
-                                <a href="Newborn.html"><i class="fas fa-search text-extra-dark-gray"
+                                <a href="Newborn_ES.html"><i class="fas fa-search text-extra-dark-gray"
                                         aria-hidden="true"></i></a>
                             </div>
                         </div>
-                        <a href="Newborn.html">
+                        <a href="Newborn_ES.html">
                             <figcaption class="bg-white">
                                 <div class="portfolio-hover-main text-center">
                                     <div class="portfolio-hover-box align-middle">
                                         <div class="portfolio-hover-content position-relative">
                                             <span
-                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Newborn</span>
+                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Recién Nacida</span>
                                         </div>
                                     </div>
                                 </div>
@@ -363,18 +362,17 @@ class OtherProjects extends HTMLElement{
                         <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
                             <img src="images/projects/A-place-I-used-to-call-home/L100066L.jpg" alt="" />
                             <div class="portfolio-icon">
-                                <a href="a-place-I-used-to-call-home.html"><i
+                                <a href="a-place-I-used-to-call-home_ES.html"><i
                                         class="fas fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
                             </div>
                         </div>
-                        <a href="a-place-I-used-to-call-home.html">
+                        <a href="a-place-I-used-to-call-home_ES.html">
                             <figcaption class="bg-white">
                                 <div class="portfolio-hover-main text-center">
                                     <div class="portfolio-hover-box align-middle">
                                         <div class="portfolio-hover-content position-relative">
                                             <span
-                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">A
-                                                place I used to call home</span>
+                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Un lugar que solía ser mi hogar</span>
                                         </div>
                                     </div>
                                 </div>
