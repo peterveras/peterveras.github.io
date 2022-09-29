@@ -115,7 +115,7 @@ class AllProjects extends HTMLElement{
 
         this.innerHTML = `
  
-        <div class="container wow animate__fadeIn padding-90px-top no-padding-bottom background-black md-padding-50px-top md-padding-50px-bottom sm-padding-30px-top sm-padding-30px-bottom"
+        <div class="container wow animate__fadeIn padding-90px-top padding-90px-bottom background-black md-padding-50px-top md-padding-50px-bottom sm-padding-30px-top sm-padding-30px-bottom"
         id="projects">
 
             <div class="row">
@@ -257,12 +257,12 @@ class OtherProjects extends HTMLElement{
 
         this.innerHTML = `
  
-        <div class="container wow animate__fadeIn padding-90px-top no-padding-bottom background-black md-padding-50px-top md-padding-50px-bottom sm-padding-30px-top sm-padding-30px-bottom"
+        <div class="container wow animate__fadeIn padding-90px-top padding-90px-bottom background-black md-padding-50px-top md-padding-50px-bottom sm-padding-30px-top sm-padding-30px-bottom"
         id="projects">
 
             <div class="row">
                 <div class="col-12 filter-content overflow-hidden">
-                    <h6 class="alt-font text-extra-dark-gray font-weight-400 letter-spacing-1 text-white text-center mb-6 pb-4">PROYECTOS
+                    <h6 class="alt-font text-extra-dark-gray font-weight-400 letter-spacing-1 text-white text-center mb-6 pb-4">OTROS PROYECTOS
                     </h6>
                 </div>
             </div>
