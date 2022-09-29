@@ -29,7 +29,7 @@ class MyHeader extends HTMLElement{
                             data-in="animate__fadeIn" data-out="animate__fadeOut">
                             <!-- start menu item -->
                             <li>
-                                <a href="#Projects">Projects</a>
+                                <a href="#projects">Projects</a>
                             </li>
                             <!-- end menu item -->
                             <!-- start menu item -->

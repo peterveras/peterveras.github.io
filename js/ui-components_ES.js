@@ -57,7 +57,7 @@ class MyHeader extends HTMLElement{
                 </div>
                 <div class="col-auto pe-0">
                     <div class="header-social-icon d-none d-md-inline-block">
-                    <i class="fa fa-globe text-white" aria-hidden="true"></i>&nbsp;&nbsp;
+                    <i class="fa fa-globe-americas text-white" aria-hidden="true"></i>&nbsp;&nbsp;
                         
                         <a href="index_ES.html" title="Español"
                         rel="noreferrer">ES</a>&nbsp;&nbsp;&nbsp;<a href="index.html" title="English"
