@@ -62,6 +62,7 @@
 </head>
 
 <body class="background-black">
+    <div id="preloader"></div>
     <!-- start header -->
     <header>
         <!-- start navigation -->
@@ -431,6 +432,13 @@
     <script type="module" src="js/ui-components.js"></script>
     <!-- setting -->
     <script type="text/javascript" src="js/main.js"></script>
+    <!-- Loading Animation -->
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+        })
+    </script>
 </body>
 
 </html>

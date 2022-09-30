@@ -74,6 +74,7 @@
 
 
 <body class="background-black">
+    <div id="preloader"></div>
     <!-- start header -->
     <my-header></my-header>
     <!-- end header -->
@@ -89,24 +90,15 @@
                 <div class="col-12 offset-lg-1 col-lg-6 col-md-6 text-center text-md-start padding-eight-lr lg-padding-six-lr md-padding-15px-lr wow animate__fadeInRight"
                     data-wow-delay="0.2s"
                     style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInRight;">
-                    <div lang="en">
-                        <span data-key="title"
-                            class="text-deep-pink alt-font margin-10px-bottom d-inline-block text-medium">I'm glad
-                            you're
-                            here.</span>
-                        <h6 data-key="body" class="alt-font text-white">Hello, I'm an photographer that loves places in
-                            nature, cities, and
-                            people's faces. I am based in Santa Cruz, Bolivia.</h6>
-                    </div>
-                    <div lang="es">
-                        <span data-key="title"
-                            class="text-deep-pink alt-font margin-10px-bottom d-inline-block text-medium">I'm glad
-                            you're
-                            here.</span>
-                        <h6 data-key="body" class="alt-font text-white">Hello, I'm an photographer that loves places in
-                            nature, cities, and
-                            people's faces. I am based in Santa Cruz, Bolivia.</h6>
-                    </div>
+
+                    <span data-key="title"
+                        class="text-deep-pink alt-font margin-10px-bottom d-inline-block text-medium">I'm glad
+                        you're
+                        here.</span>
+                    <h6 data-key="body" class="alt-font text-white">Hello, I'm an photographer that loves places in
+                        nature, cities, and
+                        people's faces. I am based in Santa Cruz, Bolivia.</h6>
+
                     <a href="mailto:verastegui.peter@gmail.com"><i
                             class="fab ti-email"></i>&nbsp;&nbsp;verastegui.peter@gmail.com</a><br>
                     <a href="https://wa.me/15712951415"><i class="fab fa-whatsapp"></i>&nbsp;+1 571 295 1415</a>
@@ -141,74 +133,13 @@
     <script type="module" src="js/ui-components.js"></script>
     <!-- setting -->
     <script type="text/javascript" src="js/main.js"></script>
-    <!-- Language Scripts 1 of 2 -->
+    <!-- Loading Animation -->
     <script>
-        //language data... could come from an external js/json file
-        let langdata = {
-            "languages": {
-                "en": {
-                    "strings": {
-                        "title": "Hello, I'm glad you're here.",
-                        "body": "I'm an photographer that loves places in nature, cities, and people's faces. I am based in Santa Cruz, Bolivia."
-                    }
-                },
-
-                "es": {
-                    "strings": {
-                        "title": "Hola, que bueno que estes por aca.",
-                        "body": "Soy Peter un fotografo que disfruta tomar fotos de lugares en la naturaleza, ciudades y rostros de personas. Vivo en Santa Cruz, Bolivia."
-                    }
-                },
-            }
-        }
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+        })
     </script>
-    <!-- Language Scripts 2 of 2 -->
-    <script>
-        //apply the language values to the content
-        document.addEventListener('DOMContentLoaded', () => {
-            //skip the lang value in the HTML tag for this example
-            let zones = document.querySelectorAll('html [lang]');
-            applyStrings(zones);
-
-            let lang = findLocaleMatch();
-            let container = document.querySelector(`html [lang*=${lang}]`);
-            container.className = 'lang-match';
-        });
-
-        function applyStrings(containers) {
-            containers.forEach(container => {
-                //find all the elements that have data-key
-                let locale = container.getAttribute('lang');
-                //console.log('looking inside of ', locale);
-                container.querySelectorAll(`[data-key]`).forEach(element => {
-                    let key = element.getAttribute('data-key');
-                    //console.log(element);
-                    //console.log(key);
-                    let lang = locale.substr(0, 2); //first 2 characters
-                    if (key) {
-                        element.textContent = langdata.languages[lang].strings[key];
-                    }
-                });
-            })
-        }
-
-        function findLocaleMatch() {
-            let keys = Object.keys(langdata.languages); //from our data
-            let locales = Intl.getCanonicalLocales(keys); //from our data validated
-
-            let lang = navigator.language; //from browser 
-            let locale = Intl.getCanonicalLocales(lang); //from browser validated
-            console.log('browser language', lang);
-            console.log('locales from data file', locale);
-
-            //find the match for locale inside locales
-            let langMatch = document.documentElement.getAttribute('lang'); //default
-            locales = locales.filter(l => locale == l);
-            langMatch = (locales.length > 0) ? locales[0] : langMatch;
-            return langMatch;
-        }
-    </script>
-
 </body>
 
 </html>

@@ -62,6 +62,7 @@
 </head>
 
 <body class="background-black">
+    <div id="preloader"></div>
     <my-header></my-header>
     <!-- start projects section -->
     <section class="wow animate__fadeIn py-0" style="visibility: visible; animation-name: fadeIn;">
@@ -246,6 +247,13 @@
     <script type="text/javascript" src="js/theme-vendors.min.js"></script>
     <!-- setting -->
     <script type="text/javascript" src="js/main.js"></script>
+    <!-- Loading Animation -->
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+        })
+    </script>
 </body>
 
 </html>

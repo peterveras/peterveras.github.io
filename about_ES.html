@@ -63,6 +63,7 @@
 
 
 <body class="background-black">
+    <div id="preloader"></div>
     <!-- start header -->
     <my-header></my-header>
     <!-- end header -->
@@ -120,7 +121,13 @@
     <script type="module" src="js/ui-components_ES.js"></script>
     <!-- setting -->
     <script type="text/javascript" src="js/main.js"></script>
-
+    <!-- Loading Animation -->
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+        })
+    </script>
 </body>
 
 </html>
