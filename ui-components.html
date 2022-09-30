@@ -84,55 +84,42 @@
                         <span class="icon-bar"></span>
                     </button>
                     <div class="navbar-collapse collapse justify-content-end" id="navbar-collapse-toggle-1">
-                        <div lang="en">
-                            <ul id="accordion" class="nav navbar-nav navbar-left no-margin alt-font text-normal"
-                                data-in="animate__fadeIn" data-out="animate__fadeOut">
-                                <!-- start menu item -->
-                                <li>
-                                    <a data-key="projects" href="#Projects" data-tilt>Actual</a>
-                                </li>
-                                <!-- end menu item -->
-                                <!-- start menu item -->
-                                <li>
-                                    <a data-key="about" href="about.html" data-tilt>Actual</a>
-                                </li>
-                                <!-- end menu item -->
-                                <!-- start menu item -->
-                                <li>
-                                    <a data-key="contact" href="index.html#contact" data-tilt>Actual</a>
-                                </li>
-                                <!-- end menu item -->
-                            </ul>
-                        </div>
-                        <div lang="es">
-                            <ul id="accordion" class="nav navbar-nav navbar-left no-margin alt-font text-normal"
-                                data-in="animate__fadeIn" data-out="animate__fadeOut">
-                                <!-- start menu item -->
-                                <li>
-                                    <a data-key="projects" href="#Projects" data-tilt>DEFAULT</a>
-                                </li>
-                                <!-- end menu item -->
-                                <!-- start menu item -->
-                                <li>
-                                    <a data-key="about" href="about.html" data-tilt>DEFAULT</a>
-                                </li>
-                                <!-- end menu item -->
-                                <!-- start menu item -->
-                                <li>
-                                    <a data-key="contact" href="index.html#contact" data-tilt>DEFAULT</a>
-                                </li>
-                                <!-- end menu item -->
-                            </ul>
-                        </div>
+                        <ul id="accordion" class="nav navbar-nav navbar-left no-margin alt-font text-normal"
+                            data-in="animate__fadeIn" data-out="animate__fadeOut">
+                            <!-- start menu item -->
+                            <li>
+                                <a href="#projects">Projects</a>
+                            </li>
+                            <!-- end menu item -->
+                            <!-- start menu item -->
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <!-- end menu item -->
+                            <!-- start menu item -->
+                            <li>
+                                <a href="index.html#contact">Contact</a>
+                            </li>
+                            <!-- end menu item -->
+                            <!-- start menu item -->
+                            <li class="d-sm-block d-xs-block d-md-none d-lg-none d-xl-none">
+                                <a href="index.html" rel="noreferrer">English</a>
+                            </li>
+                            <!-- end menu item -->
+                            <!-- start menu item -->
+                            <li class="d-sm-block d-xs-block d-md-none d-lg-none d-xl-none">
+                                <a href="index_ES.html" rel="noreferrer">Español</a>
+                            </li>
+                            <!-- end menu item -->
+                        </ul>
                     </div>
-
                 </div>
-                <div class="col-auto pe-0">
+                <div class="col-auto pe-0 text-very-light-gray">
                     <div class="header-social-icon d-none d-md-inline-block">
-                        <a href="https://www.instagram.com/peter_verastegui/" title="Instagram" target="_blank"><i
-                                class="fab fa-instagram" aria-hidden="true"></i></a>
-                        <a href="https://www.tiktok.com/@peter_veras?_t=8Vozv5Me1ew&_r=1" title="Tiktok"
-                            target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <i class="fa fa-globe-americas text-white" aria-hidden="true"></i>&nbsp;&nbsp;
+                        <a style="color: #b7b7b7" class="text-decoration-underline" href="index.html" title="English"
+                            rel="noreferrer">EN</a>
+                        &nbsp;&nbsp;&nbsp;<a href="index_ES.html" title="Español" rel="noreferrer">ES</a>
                     </div>
                 </div>
         </nav>
@@ -241,18 +228,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 filter-content overflow-hidden">
-                    <div lang="en">
-                        <h5 data-key="project-cards"
-                            class="alt-font text-extra-dark-gray font-weight-400  letter-spacing-1 text-white text-center mb-6 pb-4">
-                            Actual
-                        </h5>
-                    </div>
-                    <div lang="es">
-                        <h5 data-key="project-cards"
-                            class="alt-font text-extra-dark-gray font-weight-400  letter-spacing-1 text-white text-center mb-6 pb-4">
-                            DEFAULT
-                        </h5>
-                    </div>
+
+                    <h6 data-key="project-cards"
+                        class="alt-font text-extra-dark-gray font-weight-400  letter-spacing-1 text-white text-center mb-6 pb-4">
+                        PROJECTS
+                    </h6>
+
                 </div>
             </div>
             <div class="row">
@@ -335,8 +316,7 @@
                                             <div class="portfolio-hover-box align-middle">
                                                 <div class="portfolio-hover-content position-relative">
                                                     <span
-                                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">New
-                                                        Born</span>
+                                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Newborn</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -376,6 +356,9 @@
                     </ul>
                 </div>
             </div>
+
+        </div>
+
     </section>
     <!-- end projects section -->
     <!--Contact Start-->
@@ -384,10 +367,10 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-7 text-center margin-50px-bottom sm-margin-40px-bottom">
-                    <h5
+                    <h6
                         class="alt-font text-extra-dark-gray font-weight-400  letter-spacing-1 text-white text-center mb-6 pb-4">
                         CONTACT
-                    </h5>
+                    </h6>
                 </div>
             </div>
             <form id="contact-form-2" action="email-templates/contact-form.php" method="post">
@@ -448,79 +431,6 @@
     <script type="module" src="js/ui-components.js"></script>
     <!-- setting -->
     <script type="text/javascript" src="js/main.js"></script>
-    <!-- Language Scripts 1 of 2 -->
-    <script>
-        //language data... could come from an external js/json file
-        let langdata = {
-            "languages": {
-                "en": {
-                    "strings": {
-                        "projects": "projects",
-                        "about": "about",
-                        "contact": "contact",
-                        "project-cards": "PROJECTS"
-
-                    }
-                },
-
-                "es": {
-                    "strings": {
-                        "projects": "Proyectos",
-                        "about": "Acerca de mi",
-                        "contact": "Contacto",
-                        "project-cards": "PROYECTOS"
-                    }
-                },
-            }
-        }
-    </script>
-    <!-- Language Scripts 2 of 2 -->
-    <script>
-        //apply the language values to the content
-        document.addEventListener('DOMContentLoaded', () => {
-            //skip the lang value in the HTML tag for this example
-            let zones = document.querySelectorAll('html [lang]');
-            applyStrings(zones);
-
-            let lang = findLocaleMatch();
-            let container = document.querySelector(`html [lang*=${lang}]`);
-            container.className = 'lang-match';
-        });
-
-        function applyStrings(containers) {
-            containers.forEach(container => {
-                //find all the elements that have data-key
-                let locale = container.getAttribute('lang');
-                //console.log('looking inside of ', locale);
-                container.querySelectorAll(`[data-key]`).forEach(element => {
-                    let key = element.getAttribute('data-key');
-                    //console.log(element);
-                    //console.log(key);
-                    let lang = locale.substr(0, 2); //first 2 characters
-                    if (key) {
-                        element.textContent = langdata.languages[lang].strings[key];
-                    }
-                });
-            })
-        }
-
-        function findLocaleMatch() {
-            let keys = Object.keys(langdata.languages); //from our data
-            let locales = Intl.getCanonicalLocales(keys); //from our data validated
-
-            let lang = navigator.language; //from browser 
-            let locale = Intl.getCanonicalLocales(lang); //from browser validated
-            console.log('browser language', lang);
-            console.log('locales from data file', locale);
-
-            //find the match for locale inside locales
-            let langMatch = document.documentElement.getAttribute('lang'); //default
-            locales = locales.filter(l => locale == l);
-            langMatch = (locales.length > 0) ? locales[0] : langMatch;
-            return langMatch;
-        }
-    </script>
-
 </body>
 
 </html>

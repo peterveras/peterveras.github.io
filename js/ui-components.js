@@ -55,13 +55,12 @@ class MyHeader extends HTMLElement{
                         </ul>
                     </div>
                 </div>
-                <div class="col-auto pe-0">
+                <div class="col-auto pe-0 text-very-light-gray">
                     <div class="header-social-icon d-none d-md-inline-block">
-                    <i class="fa fa-globe-americas text-white" aria-hidden="true"></i>&nbsp;&nbsp;
-                        
-                        <a href="index_ES.html" title="Español"
-                        rel="noreferrer">ES</a>&nbsp;&nbsp;&nbsp;<a href="index.html" title="English"
-                        rel="noreferrer">EN</a>
+                        <i class="fa fa-globe-americas text-white" aria-hidden="true"></i>&nbsp;&nbsp;
+                        <a style="color: #b7b7b7" class="text-decoration-underline" href="index.html" title="English"
+                            rel="noreferrer">EN</a>
+                        &nbsp;&nbsp;&nbsp;<a href="index_ES.html" title="Español" rel="noreferrer">ES</a>
                     </div>
                 </div>
         </nav>
