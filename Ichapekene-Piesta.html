@@ -58,183 +58,181 @@
 
         gtag('config', 'G-PYL7MGSBRT');
     </script>
-    <!-- CSS needed for Language Script -->
-    <style>
-        div[lang] {
-            display: none;
-        }
-
-        div[lang].lang-match {
-
-            display: block;
-        }
-    </style>
-
+    <!-- Jquery Library for loading animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 
 <body class="background-black">
-    <div id="preloader"></div>
-    <my-header></my-header>
-    <!-- start projects section -->
-    <section class="wow animate__fadeIn py-0" style="visibility: visible; animation-name: fadeIn;">
-        <div class="container-fluid">
-            <div class="row padding-100px-top">
-                <div class="col-12 col-lg-8 col-md-10 mx-auto text-center last-paragraph-no-margin pb-5">
-                    <h5 data-key="title" class="alt-font text-white font-weight-400">Ichapekene Piesta Inasianuana
-                    </h5>
-                    <p data-key="body" class="w-80 mx-auto d-inline-block sm-w-100 text-extra-light-gray text-medium">
-                        For the last
-                        three centuries, in the remote town of San Ignacio de Moxos (located in Beni, Bolivia), the
-                        Moxos's indigenous council gather to organize the celebration of their famous Ichapekene
-                        Piesta Inasianuana. An event that besides being a fascinating spectacle to witness is a
-                        celebration of the resilient and fighting-spirit of the people of Moxos, because till today
-                        they have to fight; as they have done in the past, for their rightful claim of sovereignty
-                        over their lands and their autonomy.</p>
+    <div class="loader">
+        <div></div>
+    </div>
+    <div class="content">
+        <my-header></my-header>
+        <!-- start projects section -->
+        <section class="wow animate__fadeIn py-0" style="visibility: visible; animation-name: fadeIn;">
+            <div class="container-fluid">
+                <div class="row padding-100px-top">
+                    <div class="col-12 col-lg-8 col-md-10 mx-auto text-center last-paragraph-no-margin pb-5">
+                        <h5 data-key="title" class="alt-font text-white font-weight-400">Ichapekene Piesta Inasianuana
+                        </h5>
+                        <p data-key="body"
+                            class="w-80 mx-auto d-inline-block sm-w-100 text-extra-light-gray text-medium">
+                            For the last
+                            three centuries, in the remote town of San Ignacio de Moxos (located in Beni, Bolivia), the
+                            Moxos's indigenous council gather to organize the celebration of their famous Ichapekene
+                            Piesta Inasianuana. An event that besides being a fascinating spectacle to witness is a
+                            celebration of the resilient and fighting-spirit of the people of Moxos, because till today
+                            they have to fight; as they have done in the past, for their rightful claim of sovereignty
+                            over their lands and their autonomy.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- start gallery section -->
-    <section class="wow animate__fadeIn py-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 lightbox-portfolio p-md-0 px-1">
-                    <div id="justified" class="justified-gallery"
-                        data-justified-options='{ "rowHeight": 400, "maxRowHeight": false, "captions": true, "margins": 10, "waitThumbnailsLoad": true }'>
-                        <!-- start gallery item -->
-                        <div class="wow animate__fadeInUp">
-                            <a href="images/projects/Ichapekene-Piesta/L1000634.jpg" class="gallery-link"
-                                title="Mamas (Mothers)"><img src="images/projects/Ichapekene-Piesta/L1000634.jpg"
-                                    alt="Mamas (Mothers)"></a>
-                        </div>
-                        <!-- end gallery item -->
-                        <!-- start gallery item -->
-                        <div class="wow animate__fadeInUp" data-wow-delay="0.2s">
-                            <a href="images/projects/Ichapekene-Piesta/L1001331.jpg" class="gallery-link"
-                                title="Machetero dancing holding a machete"><img
-                                    src="images/projects/Ichapekene-Piesta/L1001331.jpg"
-                                    alt="Machetero dancing holding a machete"></a>
-                        </div>
-                        <!-- end gallery item -->
-                        <!-- start gallery item -->
-                        <div class="wow animate__fadeInUp">
-                            <a href="images/projects/Ichapekene-Piesta/L1001309.jpg" class="gallery-link"
-                                title="Machetero dancing holding a machete"><img
-                                    src="images/projects/Ichapekene-Piesta/L1001309.jpg"
-                                    alt="Machetero dancing holding a machete"></a>
-                        </div>
-                        <!-- end gallery item -->
-                        <!-- start gallery item -->
-                        <div class="wow animate__fadeInUp">
-                            <a href="images/projects/Ichapekene-Piesta/L1001306.jpg" class="gallery-link"
-                                title="Machetero dancing holding a machete"><img
-                                    src="images/projects/Ichapekene-Piesta/L1001306.jpg"
-                                    alt="Machetero dancing holding a machete"></a>
-                        </div>
-                        <!-- end gallery item -->
+        </section>
+        <!-- start gallery section -->
+        <section class="wow animate__fadeIn py-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 lightbox-portfolio p-md-0 px-1">
+                        <div id="justified" class="justified-gallery"
+                            data-justified-options='{ "rowHeight": 400, "maxRowHeight": false, "captions": true, "margins": 10, "waitThumbnailsLoad": true }'>
+                            <!-- start gallery item -->
+                            <div class="wow animate__fadeInUp">
+                                <a href="images/projects/Ichapekene-Piesta/L1000634.jpg" class="gallery-link"
+                                    title="Mamas (Mothers)"><img src="images/projects/Ichapekene-Piesta/L1000634.jpg"
+                                        alt="Mamas (Mothers)"></a>
+                            </div>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class="wow animate__fadeInUp" data-wow-delay="0.2s">
+                                <a href="images/projects/Ichapekene-Piesta/L1001331.jpg" class="gallery-link"
+                                    title="Machetero dancing holding a machete"><img
+                                        src="images/projects/Ichapekene-Piesta/L1001331.jpg"
+                                        alt="Machetero dancing holding a machete"></a>
+                            </div>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class="wow animate__fadeInUp">
+                                <a href="images/projects/Ichapekene-Piesta/L1001309.jpg" class="gallery-link"
+                                    title="Machetero dancing holding a machete"><img
+                                        src="images/projects/Ichapekene-Piesta/L1001309.jpg"
+                                        alt="Machetero dancing holding a machete"></a>
+                            </div>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class="wow animate__fadeInUp">
+                                <a href="images/projects/Ichapekene-Piesta/L1001306.jpg" class="gallery-link"
+                                    title="Machetero dancing holding a machete"><img
+                                        src="images/projects/Ichapekene-Piesta/L1001306.jpg"
+                                        alt="Machetero dancing holding a machete"></a>
+                            </div>
+                            <!-- end gallery item -->
 
-                        <!-- start gallery item -->
-                        <div class="wow animate__fadeInUp" data-wow-delay="0.2s">
-                            <a href="images/projects/Ichapekene-Piesta/L1001339-2.jpg" class="gallery-link"
-                                title="Machetero (Sun warrior)"><img
-                                    src="images/projects/Ichapekene-Piesta/L1001339-2.jpg"
-                                    alt="Machetero (Sun warrior)"></a>
-                        </div>
-                        <!-- end gallery item -->
-                        <!-- start gallery item -->
-                        <div class="wow animate__fadeInUp">
-                            <a href="images/projects/Ichapekene-Piesta/L1000798-2.jpg" class="gallery-link"
-                                title="Achus also known as the grandpas"><img
-                                    src="images/projects/Ichapekene-Piesta/L1000798-2.jpg"
-                                    alt="Achus also known as the grandpas"></a>
-                        </div>
-                        <!-- end gallery item -->
-                        <!-- start gallery item -->
-                        <div class="wow animate__fadeInUp" data-wow-delay="0.2s">
-                            <a href="images/projects/Ichapekene-Piesta/L1001477-2.jpg" class="gallery-link"
-                                title="Musician"><img src="images/projects/Ichapekene-Piesta/L1001477-2.jpg"
-                                    alt="Musician"></a>
-                        </div>
-                        <!-- end gallery item -->
-                        <!-- start gallery item -->
-                        <div class="wow animate__fadeInUp" data-wow-delay="0.2s">
-                            <a href="images/projects/Ichapekene-Piesta/L1001290-2.jpg" class="gallery-link"
-                                title="Tigresitos (Little tigers)"><img
-                                    src="images/projects/Ichapekene-Piesta/L1001290-2.jpg"
-                                    alt="Tigresitos (Little tigers)"></a>
-                        </div>
-                        <!-- end gallery item -->
-                        <!-- start gallery item -->
-                        <div class="wow animate__fadeInUp">
-                            <a href="images/projects/Ichapekene-Piesta/L1001374-2.jpg" class="gallery-link"
-                                title="Musician"><img src="images/projects/Ichapekene-Piesta/L1001374-2.jpg"
-                                    alt="Musician"></a>
-                        </div>
-                        <!-- end gallery item -->
-                        <!-- start gallery item -->
-                        <div class="wow animate__fadeInUp">
-                            <a href="images/projects/Ichapekene-Piesta/L1000806.jpg" class="gallery-link"
-                                title="An Achu holding a doll"><img src="images/projects/Ichapekene-Piesta/L1000806.jpg"
-                                    alt="An Achu holding a doll"></a>
-                        </div>
-                        <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class="wow animate__fadeInUp" data-wow-delay="0.2s">
+                                <a href="images/projects/Ichapekene-Piesta/L1001339-2.jpg" class="gallery-link"
+                                    title="Machetero (Sun warrior)"><img
+                                        src="images/projects/Ichapekene-Piesta/L1001339-2.jpg"
+                                        alt="Machetero (Sun warrior)"></a>
+                            </div>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class="wow animate__fadeInUp">
+                                <a href="images/projects/Ichapekene-Piesta/L1000798-2.jpg" class="gallery-link"
+                                    title="Achus also known as the grandpas"><img
+                                        src="images/projects/Ichapekene-Piesta/L1000798-2.jpg"
+                                        alt="Achus also known as the grandpas"></a>
+                            </div>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class="wow animate__fadeInUp" data-wow-delay="0.2s">
+                                <a href="images/projects/Ichapekene-Piesta/L1001477-2.jpg" class="gallery-link"
+                                    title="Musician"><img src="images/projects/Ichapekene-Piesta/L1001477-2.jpg"
+                                        alt="Musician"></a>
+                            </div>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class="wow animate__fadeInUp" data-wow-delay="0.2s">
+                                <a href="images/projects/Ichapekene-Piesta/L1001290-2.jpg" class="gallery-link"
+                                    title="Tigresitos (Little tigers)"><img
+                                        src="images/projects/Ichapekene-Piesta/L1001290-2.jpg"
+                                        alt="Tigresitos (Little tigers)"></a>
+                            </div>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class="wow animate__fadeInUp">
+                                <a href="images/projects/Ichapekene-Piesta/L1001374-2.jpg" class="gallery-link"
+                                    title="Musician"><img src="images/projects/Ichapekene-Piesta/L1001374-2.jpg"
+                                        alt="Musician"></a>
+                            </div>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class="wow animate__fadeInUp">
+                                <a href="images/projects/Ichapekene-Piesta/L1000806.jpg" class="gallery-link"
+                                    title="An Achu holding a doll"><img
+                                        src="images/projects/Ichapekene-Piesta/L1000806.jpg"
+                                        alt="An Achu holding a doll"></a>
+                            </div>
+                            <!-- end gallery item -->
 
-                        <!-- start gallery item -->
-                        <div class="wow animate__fadeInUp" data-wow-delay="0.2s">
-                            <a href="images/projects/Ichapekene-Piesta/L1000663-3.jpg" class="gallery-link"
-                                title="Dancer dressed as the sun"><img
-                                    src="images/projects/Ichapekene-Piesta/L1000663-3.jpg" alt="Dancer dressed as the sun></a>
+                            <!-- start gallery item -->
+                            <div class="wow animate__fadeInUp" data-wow-delay="0.2s">
+                                <a href="images/projects/Ichapekene-Piesta/L1000663-3.jpg" class="gallery-link"
+                                    title="Dancer dressed as the sun"><img
+                                        src="images/projects/Ichapekene-Piesta/L1000663-3.jpg" alt="Dancer dressed as the sun></a>
                         </div>
                         <!-- end gallery item -->
 
                         <!-- start gallery item -->
                         <div class=" wow animate__fadeInUp">
-                                <a href="images/projects/Ichapekene-Piesta/L1001176-2.jpg" class="gallery-link"
-                                    title="Ligthing the hat"><img src="images/projects/Ichapekene-Piesta/L1001176-2.jpg"
-                                        alt="Ligthing the hat"></a>
-                        </div>
-                        <!-- end gallery item -->
-                        <!-- start gallery item -->
-                        <div class="wow animate__fadeInUp">
-                            <a href="images/projects/Ichapekene-Piesta/L1001049-2.jpg" class="gallery-link"
-                                title="The queen of the moon shooting sparks"><img
-                                    src="images/projects/Ichapekene-Piesta/L1001049-2.jpg"
-                                    alt="The queen of the moon shooting sparks"></a>
-                        </div>
-                        <!-- end gallery item -->
+                                    <a href="images/projects/Ichapekene-Piesta/L1001176-2.jpg" class="gallery-link"
+                                        title="Ligthing the hat"><img
+                                            src="images/projects/Ichapekene-Piesta/L1001176-2.jpg"
+                                            alt="Ligthing the hat"></a>
+                            </div>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class="wow animate__fadeInUp">
+                                <a href="images/projects/Ichapekene-Piesta/L1001049-2.jpg" class="gallery-link"
+                                    title="The queen of the moon shooting sparks"><img
+                                        src="images/projects/Ichapekene-Piesta/L1001049-2.jpg"
+                                        alt="The queen of the moon shooting sparks"></a>
+                            </div>
+                            <!-- end gallery item -->
 
-                        <!-- start gallery item -->
-                        <div class="wow animate__fadeInUp">
-                            <a href="images/projects/Ichapekene-Piesta/L1000917-2.jpg" class="gallery-link"
-                                title="Achu's wide-rime hat with fireworks"><img
-                                    src="images/projects/Ichapekene-Piesta/L1000917-2.jpg"
-                                    alt="Achu's wide-rime hat with fireworks"></a>
-                        </div>
-                        <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class="wow animate__fadeInUp">
+                                <a href="images/projects/Ichapekene-Piesta/L1000917-2.jpg" class="gallery-link"
+                                    title="Achu's wide-rime hat with fireworks"><img
+                                        src="images/projects/Ichapekene-Piesta/L1000917-2.jpg"
+                                        alt="Achu's wide-rime hat with fireworks"></a>
+                            </div>
+                            <!-- end gallery item -->
 
 
-                        <!-- start gallery item -->
-                        <div class="wow animate__fadeInUp">
-                            <a href="images/projects/Ichapekene-Piesta/L1001725-2.jpg" class="gallery-link"
-                                title="An Achu and the king"><img src="images/projects/Ichapekene-Piesta/L1001725-2.jpg"
-                                    alt="An Achu and the king"></a>
-                        </div>
-                        <!-- end gallery item -->
-                        <!-- start gallery item -->
-                        <div class="wow animate__fadeInUp" data-wow-delay="0.2s">
-                            <a href="images/projects/Ichapekene-Piesta/L1001794-2.jpg" class="gallery-link"
-                                title="Indigenous Counsil"><img src="images/projects/Ichapekene-Piesta/L1001794-2.jpg"
-                                    alt="Indigenous Counsil"></a>
-                        </div>
-                        <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class="wow animate__fadeInUp">
+                                <a href="images/projects/Ichapekene-Piesta/L1001725-2.jpg" class="gallery-link"
+                                    title="An Achu and the king"><img
+                                        src="images/projects/Ichapekene-Piesta/L1001725-2.jpg"
+                                        alt="An Achu and the king"></a>
+                            </div>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class="wow animate__fadeInUp" data-wow-delay="0.2s">
+                                <a href="images/projects/Ichapekene-Piesta/L1001794-2.jpg" class="gallery-link"
+                                    title="Indigenous Counsil"><img
+                                        src="images/projects/Ichapekene-Piesta/L1001794-2.jpg"
+                                        alt="Indigenous Counsil"></a>
+                            </div>
+                            <!-- end gallery item -->
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- end gallery section -->
-
+        </section>
+        <!-- end gallery section -->
+    </div>
     <!-- end projects section -->
     <!-- start ALL projects section -->
     <other-projects></other-projects>
@@ -254,12 +252,12 @@
     <script type="text/javascript" src="js/theme-vendors.min.js"></script>
     <!-- setting -->
     <script type="text/javascript" src="js/main.js"></script>
-    <!-- Loading Animation -->
+    <!--loading animation-->
     <script>
-        var loader = document.getElementById("preloader");
-        window.addEventListener("load", function () {
-            loader.style.display = "none";
-        })
+        $(window).on('load', function () {
+            $(".loader").fadeOut(1000);
+            $(".content").fadeIn(1000);
+        });
     </script>
 </body>
 

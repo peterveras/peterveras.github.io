@@ -58,136 +58,142 @@
 
         gtag('config', 'G-PYL7MGSBRT');
     </script>
-
+    <!-- Jquery Library for loading animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 
 <body class="background-black">
-    <div id="preloader"></div>
-    <!-- start header -->
-    <my-header></my-header>
-    <!-- end header -->
-    <!-- start gallery section -->
-    <section class="wow animate__fadeInUp p-0 pt-5 mt-4 background-black" data-wow-delay="0.1s">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 p-0 lightbox-portfolio">
-                    <div id="justified" class="justified-gallery"
-                        data-justified-options='{ "rowHeight": 400, "maxRowHeight": false, "captions": true, "margins": 10, "waitThumbnailsLoad": true }'>
+    <div class="loader">
+        <div></div>
+    </div>
+    <div class="content">
+        <!-- start header -->
+        <my-header></my-header>
+        <!-- end header -->
+        <!-- start gallery section -->
+        <section class="wow animate__fadeInUp p-0 pt-5 mt-4 background-black" data-wow-delay="0.1s">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 p-0 lightbox-portfolio">
+                        <div id="justified" class="justified-gallery"
+                            data-justified-options='{ "rowHeight": 400, "maxRowHeight": false, "captions": true, "margins": 10, "waitThumbnailsLoad": true }'>
 
-                        <!-- start gallery item -->
-                        <div class="wow animate__fadeInUp" data-wow-delay="0.2s">
-                            <a href="images/projects/Madrid/IMG_2098.jpg" class="gallery-link"
-                                title="The dalías of San Francisco park, Madrid, Spain"><img
-                                    src="images/projects/Madrid/IMG_2098.jpg"
-                                    alt="The dalías of San Francisco park, Madrid, Spain"></a>
-                        </div>
-                        <!-- end gallery item -->
-                        <!-- start gallery item -->
-                        <div class=" wow animate__fadeInUp" data-wow-delay="0.4s">
-                            <a href="images/projects/Portraits/Dylan-Glenn-Cool-kids-night.jpg" class="gallery-link"
-                                title="Dylan the coolest kid, Washington, DC, U.S."><img
-                                    src="images/projects/Portraits/Dylan-Glenn-Cool-kids-night.jpg"
-                                    alt="Dylan the coolest kid, Washington, DC, U.S."></a>
-                        </div>
-                        <!-- end gallery item -->
-                        <!-- start gallery item -->
-                        <div class=" wow animate__fadeInUp" data-wow-delay="0.6s">
-                            <a href="images/projects/Jamaica/bg8.jpg" class="gallery-link"
-                                title="Somewhere in Jamaica a man is waiting"><img src="images/projects/Jamaica/bg8.jpg"
-                                    alt="Somewhere in Jamaica a man is waiting"></a>
-                        </div>
-                        <!-- end gallery item -->
-                        <!-- start gallery item -->
-                        <div class=" wow animate__fadeInUp" data-wow-delay="0.4s">
-                            <a href="images/projects/Portraits/Chris-Skater-smoke-break.jpg" class="gallery-link"
-                                title="Smoke break, Washington, DC, U.S."><img
-                                    src="images/projects/Portraits/Chris-Skater-smoke-break.jpg"
-                                    alt="Smoke break, Washington, DC, U.S."></a>
-                        </div>
-                        <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class="wow animate__fadeInUp" data-wow-delay="0.2s">
+                                <a href="images/projects/Madrid/IMG_2098.jpg" class="gallery-link"
+                                    title="The dalías of San Francisco park, Madrid, Spain"><img
+                                        src="images/projects/Madrid/IMG_2098.jpg"
+                                        alt="The dalías of San Francisco park, Madrid, Spain"></a>
+                            </div>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class=" wow animate__fadeInUp" data-wow-delay="0.4s">
+                                <a href="images/projects/Portraits/Dylan-Glenn-Cool-kids-night.jpg" class="gallery-link"
+                                    title="Dylan the coolest kid, Washington, DC, U.S."><img
+                                        src="images/projects/Portraits/Dylan-Glenn-Cool-kids-night.jpg"
+                                        alt="Dylan the coolest kid, Washington, DC, U.S."></a>
+                            </div>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class=" wow animate__fadeInUp" data-wow-delay="0.6s">
+                                <a href="images/projects/Jamaica/bg8.jpg" class="gallery-link"
+                                    title="Somewhere in Jamaica a man is waiting"><img
+                                        src="images/projects/Jamaica/bg8.jpg"
+                                        alt="Somewhere in Jamaica a man is waiting"></a>
+                            </div>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class=" wow animate__fadeInUp" data-wow-delay="0.4s">
+                                <a href="images/projects/Portraits/Chris-Skater-smoke-break.jpg" class="gallery-link"
+                                    title="Smoke break, Washington, DC, U.S."><img
+                                        src="images/projects/Portraits/Chris-Skater-smoke-break.jpg"
+                                        alt="Smoke break, Washington, DC, U.S."></a>
+                            </div>
+                            <!-- end gallery item -->
 
-                        <!-- start gallery item -->
-                        <div class=" wow animate__fadeInUp" data-wow-delay="0.2s">
-                            <a href="images/projects/Bolivia/Potosi/Salar-de-Uyuni.jpg" class="gallery-link"
-                                title="Island of the fish in the Uyuni salt flats, Pototsi, Bolivia"><img
-                                    src="images/projects/Bolivia/Potosi/Salar-de-Uyuni.jpg"
-                                    alt="Island of the fish in the Uyuni salt flats, Pototsi, Bolivia"></a>
-                        </div>
-                        <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class=" wow animate__fadeInUp" data-wow-delay="0.2s">
+                                <a href="images/projects/Bolivia/Potosi/Salar-de-Uyuni.jpg" class="gallery-link"
+                                    title="Island of the fish in the Uyuni salt flats, Pototsi, Bolivia"><img
+                                        src="images/projects/Bolivia/Potosi/Salar-de-Uyuni.jpg"
+                                        alt="Island of the fish in the Uyuni salt flats, Pototsi, Bolivia"></a>
+                            </div>
+                            <!-- end gallery item -->
 
-                        <!-- start gallery item -->
-                        <div class=" wow animate__fadeInUp" data-wow-delay="0.6s">
-                            <a href="images/projects/United-States/DC/Kids-Under-The-Bridge.jpg" class="gallery-link"
-                                title="College kinds under the bridge, Washington, DC, U.S."><img
-                                    src="images/projects/United-States/DC/Kids-Under-The-Bridge.jpg"
-                                    alt="College kinds under the bridge, Washington, DC, U.S."></a>
-                        </div>
-                        <!-- end gallery item -->
-                        <!-- start gallery item -->
-                        <div class=" wow animate__fadeInUp" data-wow-delay="0.2s">
-                            <a href="images/projects/United-States/Wyoming/Guitar-Woman-Mountains.jpg"
-                                class="gallery-link" title="Yellow Stone Guitar Woman, Wyoming, U.S."><img
-                                    src="images/projects/United-States/Wyoming/Guitar-Woman-Mountains.jpg"
-                                    alt="Yellow Stone Guitar Woman, Wyoming, U.S."></a>
-                        </div>
-                        <!-- end gallery item -->
-                        <!-- start gallery item -->
-                        <div class=" wow animate__fadeInUp" data-wow-delay="0.4s">
-                            <a href="images/projects/Portraits/Mensa-in-NY-Subway.jpg" class="gallery-link"
-                                title="Mensa Kondo in the subway, New York, U.S."><img
-                                    src="images/projects/Portraits/Mensa-in-NY-Subway.jpg"
-                                    alt="Mensa Kondo in the subway, New York, U.S."></a>
-                        </div>
-                        <!-- end gallery item -->
-                        <!-- start gallery item -->
-                        <div class=" wow animate__fadeInUp" data-wow-delay="0.6s">
-                            <a href="images/projects/United-States/DC/bg7-2.jpg" class="gallery-link"
-                                title="Late night with friends, Washington, DC, U.S."><img
-                                    src="images/projects/United-States/DC/bg7-2.jpg"
-                                    alt="Late night with friends, Washington, DC, U.S."></a>
-                        </div>
-                        <!-- end gallery item -->
-                        <!-- start gallery item -->
-                        <div class=" wow animate__fadeInUp" data-wow-delay="0.2s">
-                            <a href="images/projects/Jamaica//IMG_9689.jpg" class="gallery-link"
-                                title="Cliff Divers at Rick&rsquo;s Cafe, Negril,Jamainca"><img
-                                    src="images/projects/Jamaica//IMG_9689.jpg"
-                                    alt="Cliff Divers at Rick&rsquo;s Cafe, Negril,Jamainca"></a>
-                        </div>
-                        <!-- end gallery item -->
-                        <!-- start gallery item -->
-                        <div class=" wow animate__fadeInUp" data-wow-delay="0.2s">
-                            <a href="images/projects/United-States/DC/L1000111.jpg" class="gallery-link"
-                                title="Graffiti Cliffs, Washington, DC, U.S."><img
-                                    src="images/projects/United-States/DC/L1000111.jpg"
-                                    alt="Graffiti Cliffs, Washington, DC, U.S."></a>
-                        </div>
-                        <!-- end gallery item -->
-                        <!-- start gallery item -->
-                        <div class=" wow animate__fadeInUp" data-wow-delay="0.4s">
-                            <a href="images/projects/Bolivia/La-Paz/IMG_0551.jpg" class="gallery-link"
-                                title="The Illimani looking at the city, La Paz, Bolivia"><img
-                                    src="images/projects/Bolivia/La-Paz/IMG_0551.jpg"
-                                    alt="The Illimani looking at the city, La Paz, Bolivia"></a>
-                        </div>
-                        <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class=" wow animate__fadeInUp" data-wow-delay="0.6s">
+                                <a href="images/projects/United-States/DC/Kids-Under-The-Bridge.jpg"
+                                    class="gallery-link"
+                                    title="College kinds under the bridge, Washington, DC, U.S."><img
+                                        src="images/projects/United-States/DC/Kids-Under-The-Bridge.jpg"
+                                        alt="College kinds under the bridge, Washington, DC, U.S."></a>
+                            </div>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class=" wow animate__fadeInUp" data-wow-delay="0.2s">
+                                <a href="images/projects/United-States/Wyoming/Guitar-Woman-Mountains.jpg"
+                                    class="gallery-link" title="Yellow Stone Guitar Woman, Wyoming, U.S."><img
+                                        src="images/projects/United-States/Wyoming/Guitar-Woman-Mountains.jpg"
+                                        alt="Yellow Stone Guitar Woman, Wyoming, U.S."></a>
+                            </div>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class=" wow animate__fadeInUp" data-wow-delay="0.4s">
+                                <a href="images/projects/Portraits/Mensa-in-NY-Subway.jpg" class="gallery-link"
+                                    title="Mensa Kondo in the subway, New York, U.S."><img
+                                        src="images/projects/Portraits/Mensa-in-NY-Subway.jpg"
+                                        alt="Mensa Kondo in the subway, New York, U.S."></a>
+                            </div>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class=" wow animate__fadeInUp" data-wow-delay="0.6s">
+                                <a href="images/projects/United-States/DC/bg7-2.jpg" class="gallery-link"
+                                    title="Late night with friends, Washington, DC, U.S."><img
+                                        src="images/projects/United-States/DC/bg7-2.jpg"
+                                        alt="Late night with friends, Washington, DC, U.S."></a>
+                            </div>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class=" wow animate__fadeInUp" data-wow-delay="0.2s">
+                                <a href="images/projects/Jamaica//IMG_9689.jpg" class="gallery-link"
+                                    title="Cliff Divers at Rick&rsquo;s Cafe, Negril,Jamainca"><img
+                                        src="images/projects/Jamaica//IMG_9689.jpg"
+                                        alt="Cliff Divers at Rick&rsquo;s Cafe, Negril,Jamainca"></a>
+                            </div>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class=" wow animate__fadeInUp" data-wow-delay="0.2s">
+                                <a href="images/projects/United-States/DC/L1000111.jpg" class="gallery-link"
+                                    title="Graffiti Cliffs, Washington, DC, U.S."><img
+                                        src="images/projects/United-States/DC/L1000111.jpg"
+                                        alt="Graffiti Cliffs, Washington, DC, U.S."></a>
+                            </div>
+                            <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class=" wow animate__fadeInUp" data-wow-delay="0.4s">
+                                <a href="images/projects/Bolivia/La-Paz/IMG_0551.jpg" class="gallery-link"
+                                    title="The Illimani looking at the city, La Paz, Bolivia"><img
+                                        src="images/projects/Bolivia/La-Paz/IMG_0551.jpg"
+                                        alt="The Illimani looking at the city, La Paz, Bolivia"></a>
+                            </div>
+                            <!-- end gallery item -->
 
-                        <!-- start gallery item -->
-                        <div class=" wow animate__fadeInUp">
-                            <a href="images/projects/United-States/DC/DC-Metro.jpg" class="gallery-link"
-                                title="Self-portrait at the metro, Washington, DC, U.S."><img
-                                    src="images/projects/United-States/DC/DC-Metro.jpg"
-                                    alt="Self-portrait at the metro, Washington, DC, U.S."></a>
-                        </div>
-                        <!-- end gallery item -->
+                            <!-- start gallery item -->
+                            <div class=" wow animate__fadeInUp">
+                                <a href="images/projects/United-States/DC/DC-Metro.jpg" class="gallery-link"
+                                    title="Self-portrait at the metro, Washington, DC, U.S."><img
+                                        src="images/projects/United-States/DC/DC-Metro.jpg"
+                                        alt="Self-portrait at the metro, Washington, DC, U.S."></a>
+                            </div>
+                            <!-- end gallery item -->
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- end gallery section -->
-
+        </section>
+        <!-- end gallery section -->
+    </div>
     <!-- start projects section -->
     <all-projects></all-projects>
     <!-- end projects section -->
@@ -227,9 +233,6 @@
         </div>
     </section>
     <!-- Contact End-->
-
-
-
     <!-- start footer -->
     <footer
         class="footer-classic-dark bg-extra-dark-gray padding-five-bottom sm-padding-30px-bottom wow animate__fadeInUp">
@@ -264,12 +267,13 @@
     <script type="module" src="js/ui-components_ES.js"></script>
     <!-- setting -->
     <script type="text/javascript" src="js/main.js"></script>
-    <!-- Loading Animation -->
+    <!--Script for loading animation-->
     <script>
-        var loader = document.getElementById("preloader");
-        window.addEventListener("load", function () {
-            loader.style.display = "none";
-        })
+        $(window).on('load', function () {
+            $(".loader").fadeOut(1000);
+            $(".content").fadeIn(1000);
+
+        });
     </script>
 </body>
 

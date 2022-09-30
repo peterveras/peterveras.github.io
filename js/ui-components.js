@@ -114,136 +114,144 @@ class AllProjects extends HTMLElement{
 
         this.innerHTML = `
  
-        <div class="container wow animate__fadeIn padding-90px-top no-padding-bottom background-black md-padding-50px-top md-padding-50px-bottom sm-padding-30px-top sm-padding-30px-bottom"
-        id="projects">
+        <!-- start all projects section -->
+        <section id="projects" class="py-0">
+            <div
+                class="container wow animate__fadeIn padding-90px-top background-black md-padding-50px-top md-padding-50px-bottom sm-padding-30px-top sm-padding-30px-bottom">
+                <div class="row">
+                    <div class="col-12 filter-content overflow-hidden">
+                        <h6
+                            class="alt-font text-extra-dark-gray font-weight-400 letter-spacing-1 text-white text-center mb-6 pb-4">
+                            PROJECTS
+                        </h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 filter-content overflow-hidden">
+                        <ul
+                            class="hover-option6 lightbox-portfolio portfolio-wrapper grid grid-loading grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-medium">
+                            <li class="grid-sizer"></li>
 
-            <div class="row">
-                <div class="col-12 filter-content overflow-hidden">
-                    <h6 class="alt-font text-extra-dark-gray font-weight-400 letter-spacing-1 text-white text-center mb-6 pb-4">PROJECTS
-                    </h6>
+                            <!-- start portfolio-item item -->
+                            <li class="design web photography grid-item wow animate__fadeInUp last-paragraph-no-margin">
+                                <figure>
+                                    <div
+                                        class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="images/projects/Ichapekene-Piesta/L1000663.jpg"
+                                            alt="Dylan the cool kid" />
+                                        <div class="portfolio-icon">
+                                            <a href="Ichapekene-Piesta.html"><i
+                                                    class="fas fa-search text-extra-dark-gray"
+                                                    aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <a href="Ichapekene-Piesta.html">
+                                        <figcaption class="bg-white">
+                                            <div class="portfolio-hover-main text-center">
+                                                <div class="portfolio-hover-box align-middle">
+                                                    <div class="portfolio-hover-content position-relative">
+                                                        <span
+                                                            class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Ichapekene
+                                                            Piesta Inasianuana</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </a>
+
+                                </figure>
+
+                            </li>
+                            <!-- end portfolio item -->
+
+                            <!-- start portfolio-item item -->
+                            <li class="design web photography grid-item wow animate__fadeInUp last-paragraph-no-margin">
+                                <figure>
+                                    <div
+                                        class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="images/projects/Portraits/L100066X.jpg" alt="Dylan the cool kid" />
+                                        <div class="portfolio-icon">
+                                            <a href="portraits.html"><i class="fas fa-search text-extra-dark-gray"
+                                                    aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <a href="portraits.html">
+                                        <figcaption class="bg-white">
+                                            <div class="portfolio-hover-main text-center">
+                                                <div class="portfolio-hover-box align-middle">
+                                                    <div class="portfolio-hover-content position-relative">
+                                                        <span
+                                                            class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Portraits</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </a>
+                                </figure>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio item -->
+                            <li class="advertising grid-item wow animate__fadeInUp last-paragraph-no-margin"
+                                data-wow-delay="0.2s">
+                                <figure>
+                                    <div
+                                        class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="images/projects/Newborn/L100066Z.jpg" alt="" />
+                                        <div class="portfolio-icon">
+                                            <a href="Newborn.html"><i class="fas fa-search text-extra-dark-gray"
+                                                    aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <a href="Newborn.html">
+                                        <figcaption class="bg-white">
+                                            <div class="portfolio-hover-main text-center">
+                                                <div class="portfolio-hover-box align-middle">
+                                                    <div class="portfolio-hover-content position-relative">
+                                                        <span
+                                                            class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Newborn</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </a>
+                                </figure>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio item -->
+                            <li class="branding photography advertising web grid-item wow animate__fadeInUp last-paragraph-no-margin"
+                                data-wow-delay="0.4s">
+                                <figure>
+                                    <div
+                                        class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="images/projects/A-place-I-used-to-call-home/L100066L.jpg" alt="" />
+                                        <div class="portfolio-icon">
+                                            <a href="a-place-I-used-to-call-home.html"><i
+                                                    class="fas fa-search text-extra-dark-gray"
+                                                    aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <a href="a-place-I-used-to-call-home.html">
+                                        <figcaption class="bg-white">
+                                            <div class="portfolio-hover-main text-center">
+                                                <div class="portfolio-hover-box align-middle">
+                                                    <div class="portfolio-hover-content position-relative">
+                                                        <span
+                                                            class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">A
+                                                            place I used to call home</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </a>
+                                </figure>
+                            </li>
+                            <!-- end portfolio item -->
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-            <div class="col-12 filter-content overflow-hidden">
-            <ul
-                class="hover-option6 lightbox-portfolio portfolio-wrapper grid grid-loading grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-medium">
-                <li class="grid-sizer"></li>
-
-                <!-- start portfolio-item item -->
-                <li class="design web photography grid-item wow animate__fadeInUp last-paragraph-no-margin">
-
-                    <figure>
-
-                        <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
-                            <img src="images/projects/Ichapekene-Piesta/L1000663.jpg"
-                                alt="Dylan the cool kid" />
-                            <div class="portfolio-icon">
-                                <a href="Ichapekene-Piesta.html"><i class="fas fa-search text-extra-dark-gray"
-                                        aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                        <a href="Ichapekene-Piesta.html">
-                            <figcaption class="bg-white">
-                                <div class="portfolio-hover-main text-center">
-                                    <div class="portfolio-hover-box align-middle">
-                                        <div class="portfolio-hover-content position-relative">
-                                            <span
-                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Ichapekene
-                                                Piesta Inasianuana</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </figcaption>
-                        </a>
-
-                    </figure>
-
-                </li>
-                <!-- end portfolio item -->
-
-                <!-- start portfolio-item item -->
-                <li class="design web photography grid-item wow animate__fadeInUp last-paragraph-no-margin">
-                    <figure>
-                        <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
-                            <img src="images/projects/Portraits/L100066X.jpg" alt="Dylan the cool kid" />
-                            <div class="portfolio-icon">
-                                <a href="portraits.html"><i class="fas fa-search text-extra-dark-gray"
-                                        aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                        <a href="portraits.html">
-                            <figcaption class="bg-white">
-                                <div class="portfolio-hover-main text-center">
-                                    <div class="portfolio-hover-box align-middle">
-                                        <div class="portfolio-hover-content position-relative">
-                                            <span
-                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Portraits</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </figcaption>
-                        </a>
-                    </figure>
-                </li>
-                <!-- end portfolio item -->
-                <!-- start portfolio item -->
-                <li class="advertising grid-item wow animate__fadeInUp last-paragraph-no-margin"
-                    data-wow-delay="0.2s">
-                    <figure>
-                        <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
-                            <img src="images/projects/Newborn/L100066Z.jpg" alt="" />
-                            <div class="portfolio-icon">
-                                <a href="Newborn.html"><i class="fas fa-search text-extra-dark-gray"
-                                        aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                        <a href="Newborn.html">
-                            <figcaption class="bg-white">
-                                <div class="portfolio-hover-main text-center">
-                                    <div class="portfolio-hover-box align-middle">
-                                        <div class="portfolio-hover-content position-relative">
-                                            <span
-                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Newborn</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </figcaption>
-                        </a>
-                    </figure>
-                </li>
-                <!-- end portfolio item -->
-                <!-- start portfolio item -->
-                <li class="branding photography advertising web grid-item wow animate__fadeInUp last-paragraph-no-margin"
-                    data-wow-delay="0.4s">
-                    <figure>
-                        <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
-                            <img src="images/projects/A-place-I-used-to-call-home/L100066L.jpg" alt="" />
-                            <div class="portfolio-icon">
-                                <a href="a-place-I-used-to-call-home.html"><i
-                                        class="fas fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                        <a href="a-place-I-used-to-call-home.html">
-                            <figcaption class="bg-white">
-                                <div class="portfolio-hover-main text-center">
-                                    <div class="portfolio-hover-box align-middle">
-                                        <div class="portfolio-hover-content position-relative">
-                                            <span
-                                                class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">A
-                                                place I used to call home</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </figcaption>
-                        </a>
-                    </figure>
-
-                </li>
-                <!-- end portfolio item -->
-            </ul>
-        </div>
-        </div>
-
+        </section>
+        <!-- end all projects section -->
         `;
     }
 
