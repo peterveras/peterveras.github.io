@@ -39,7 +39,7 @@ class MyHeader extends HTMLElement{
                             <!-- end menu item -->
                             <!-- start menu item -->
                             <li>
-                                <a href="contact.html" data-tilt>contacto</a>
+                                <a href="contact_ES.html" data-tilt>contacto</a>
                             </li>
                             <!-- end menu item -->
                             <!-- start menu item -->
