@@ -39,7 +39,7 @@ class MyHeader extends HTMLElement{
                             <!-- end menu item -->
                             <!-- start menu item -->
                             <li>
-                                <a href="index.html#contact">Contact</a>
+                                <a href="contact.html">Contact</a>
                             </li>
                             <!-- end menu item -->
                             <!-- start menu item -->
@@ -117,7 +117,7 @@ class AllProjects extends HTMLElement{
         <!-- start all projects section -->
         <section id="projects" class="py-0">
             <div
-                class="container wow animate__fadeIn padding-90px-top background-black md-padding-50px-top md-padding-50px-bottom sm-padding-30px-top sm-padding-30px-bottom">
+                class="container wow animate__fadeIn padding-90px-top background-black md-padding-50px-top md-padding-50px-bottom sm-padding-30px-top sm-padding-30px-bottom" data-wow-delay="2.0s">
                 <div class="row">
                     <div class="col-12 filter-content overflow-hidden">
                         <h6
@@ -266,7 +266,7 @@ class OtherProjects extends HTMLElement{
         this.innerHTML = `
  
         <div class="container wow animate__fadeIn padding-90px-top padding-90px-bottom background-black md-padding-50px-top md-padding-50px-bottom sm-padding-30px-top sm-padding-30px-bottom"
-        id="projects">
+        id="projects" data-wow-delay="2.0s">
 
             <div class="row">
                 <div class="col-12 filter-content overflow-hidden">

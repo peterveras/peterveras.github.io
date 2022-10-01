@@ -1,0 +1,142 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <!-- title -->
+    <title>Peter Verastegui | Photography</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+    <meta name="Peter Verastegui" content="Photography Portfolio">
+    <!-- description -->
+    <meta name="description" content="Peter Verastegui &#124; Photography">
+    <!-- keywords -->
+    <meta name="keywords"
+        content="Photography, modern, Bolivian, POC, Portraits, Latin America, Santa Cruz de la Sierra, photographer, English, Colorful, Street Photography">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <!-- Rich Preview -->
+    <!-- Primary Meta Tags -->
+    <title>Peter Verastegui | Photographer</title>
+    <meta name="title" content="Peter Verastegui | Photographer">
+    <meta name="description"
+        content="I'm an photographer that loves places in nature, cities, and people's faces. I am based in Santa Cruz, Bolivia.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://peterveras.github.io/photography/">
+    <meta property="og:title" content="Peter Verastegui | Photographer">
+    <meta property="og:description"
+        content="I'm an photographer that loves places in nature, cities, and people's faces. I am based in Santa Cruz, Bolivia.">
+    <meta property="og:image" content="https://peterveras.github.io/photography/images/rich-preview.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://peterveras.github.io/photography/">
+    <meta property="twitter:title" content="Peter Verastegui | Photographer">
+    <meta property="twitter:description"
+        content="I'm an photographer that loves places in nature, cities, and people's faces. I am based in Santa Cruz, Bolivia.">
+    <meta property="twitter:image" content="https://peterveras.github.io/photography/images/rich-preview.jpg">
+
+
+    <!-- style sheets and font icons  -->
+    <link rel="stylesheet" type="text/css" href="css/bootsnav.css">
+    <link rel="stylesheet" type="text/css" href="css/font-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/theme-vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYL7MGSBRT"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-PYL7MGSBRT');
+    </script>
+    <!-- Jquery Library for loading animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+</head>
+
+<body class="background-black">
+    <div class="loader">
+        <div></div>
+    </div>
+    <div class="content">
+        <!-- start header -->
+        <my-header></my-header>
+        <!-- end header -->
+        <!--Contact Start-->
+        <section id="contact" class="wow animate__fadeIn px-3 pb-0">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-7 text-center margin-50px-bottom sm-margin-40px-bottom">
+
+                        <h6 data-key="contact-form"
+                            class="alt-font text-extra-dark-gray font-weight-400  letter-spacing-1 text-white text-center">
+                            CONTACT
+                        </h6>
+
+                    </div>
+                </div>
+                <form action="https://formspree.io/f/meqdgweg" method="post" id="contact-form-2">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-8 wow animate__fadeIn text-center"
+                            style="visibility: visible; animation-name: fadeIn;">
+                            <!--Lenguaje de mensaje de confirmacion -->
+                            <input type="hidden" name="_language" value="en" />
+
+                            <!--Subject Line-->
+                            <input type="hidden" name="subject." value="your photography portfolio">
+
+                            <input type="text" name="name" id="name" placeholder="Name*"
+                                class="input-border-bottom aria-describedby=" Name" required">
+                            <input type="email" name="email" id="email" placeholder="E-mail*"
+                                class="input-border-bottom" aria-describedby="email" required>
+                            <textarea name="comment" id="comment" placeholder="Your Message" class="input-border-bottom"
+                                required></textarea>
+                            <button data-key="btn-send" id="contact-us-button-2" type="submit"
+                                class="btn btn-small btn-deep-pink btn-rounded margin-30px-top sm-margin-three-top">send
+                                message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- Contact End-->
+    </div>
+    <all-projects></all-projects>
+
+    <!-- start footer -->
+    <my-footer></my-footer>
+    <!-- end footer -->
+    <!-- start scroll to top -->
+    <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
+    <!-- end scroll to top  -->
+    <!-- javascript -->
+    <!-- setting -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootsnav.js"></script>
+    <script type="text/javascript" src="js/jquery.nav.js"></script>
+    <script type="text/javascript" src="js/hamburger-menu.js"></script>
+    <script type="text/javascript" src="js/theme-vendors.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!--UI Components-->
+    <script type="module" src="js/ui-components.js"></script>
+    <!--Script for loading animation-->
+    <script>
+        $(window).on('load', function () {
+            $(".loader").fadeOut(1000);
+            $(".content").fadeIn(1000);
+
+        });
+    </script>
+
+</body>
+
+</html>

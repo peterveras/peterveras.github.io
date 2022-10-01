@@ -67,10 +67,11 @@
     <div class="loader">
         <div></div>
     </div>
+    <!-- start header -->
+    <my-header></my-header>
+    <!-- end header -->
     <div class="content">
-        <!-- start header -->
-        <my-header></my-header>
-        <!-- end header -->
+
         <!-- start gallery section -->
         <section class="wow animate__fadeInUp p-0 pt-5 mt-4 background-black" data-wow-delay="0.1s">
             <div class="container-fluid">
@@ -196,45 +197,7 @@
         <!-- end gallery section -->
     </div>
     <all-projects></all-projects>
-
-    <!--Contact Start-->
-    <section id="contact" class="wow animate__fadeIn px-3" style="visibility: visible; animation-name: fadeIn;">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-7 text-center margin-50px-bottom sm-margin-40px-bottom">
-
-                    <h6 data-key="contact-form"
-                        class="alt-font text-extra-dark-gray font-weight-400  letter-spacing-1 text-white text-center">
-                        CONTACT
-                    </h6>
-
-                </div>
-            </div>
-            <form action="https://formspree.io/f/meqdgweg" method="post" id="contact-form-2">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-lg-8 wow animate__fadeIn text-center"
-                        style="visibility: visible; animation-name: fadeIn;">
-                        <!--Lenguaje de mensaje de confirmacion -->
-                        <input type="hidden" name="_language" value="en" />
-
-                        <!--Subject Line-->
-                        <input type="hidden" name="subject." value="your photography portfolio">
-
-                        <input type="text" name="name" id="name" placeholder="Name*"
-                            class="input-border-bottom aria-describedby=" Name" required">
-                        <input type="email" name="email" id="email" placeholder="E-mail*" class="input-border-bottom"
-                            aria-describedby="email" required>
-                        <textarea name="comment" id="comment" placeholder="Your Message" class="input-border-bottom"
-                            required></textarea>
-                        <button data-key="btn-send" id="contact-us-button-2" type="submit"
-                            class="btn btn-small btn-deep-pink btn-rounded margin-30px-top sm-margin-three-top">send
-                            message</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </section>
-    <!-- Contact End-->
+    <div class="padding-90px-bottom"></div>
     <!-- start footer -->
     <my-footer></my-footer>
     <!-- end footer -->
