@@ -324,6 +324,32 @@ class AllProjects extends HTMLElement{
                             </figure>
                         </li>
                         <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <li class="branding photography advertising web grid-item wow animate__fadeInUp last-paragraph-no-margin"
+                            data-wow-delay="0.4s">
+                            <figure>
+                                <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                    <img src="images/projects/Madrid/Madrid-Cover.jpg" alt="Madrid" />
+                                    <div class="portfolio-icon">
+                                        <a href="madrid.html"><i class="fas fa-search text-extra-dark-gray"
+                                                aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <a href="madrid.html">
+                                    <figcaption class="bg-white">
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box align-middle">
+                                                <div class="portfolio-hover-content position-relative">
+                                                    <span
+                                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Madrid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </li>
+                        <!-- end portfolio item -->
                     </ul>
                 </div>
             </div>
@@ -539,6 +565,32 @@ class OtherProjects extends HTMLElement{
                                                 <span
                                                     class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">New
                                                     York</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </li>
+                    <!-- end portfolio item -->
+                    <!-- start portfolio item -->
+                    <li class="branding photography advertising web grid-item wow animate__fadeInUp last-paragraph-no-margin"
+                        data-wow-delay="0.4s">
+                        <figure>
+                            <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                <img src="images/projects/Madrid/Madrid-Cover.jpg" alt="Madrid" />
+                                <div class="portfolio-icon">
+                                    <a href="madrid.html"><i class="fas fa-search text-extra-dark-gray"
+                                            aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <a href="madrid.html">
+                                <figcaption class="bg-white">
+                                    <div class="portfolio-hover-main text-center">
+                                        <div class="portfolio-hover-box align-middle">
+                                            <div class="portfolio-hover-content position-relative">
+                                                <span
+                                                    class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Madrid</span>
                                             </div>
                                         </div>
                                     </div>
