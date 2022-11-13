@@ -328,17 +328,17 @@ class AllProjects extends HTMLElement{
                             <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
                                 <img src="images/projects/Madrid/Madrid-Cover.jpg" alt="Madrid" />
                                 <div class="portfolio-icon">
-                                    <a href="madrid_ES.html"><i class="fas fa-search text-extra-dark-gray"
+                                    <a href="vagos_ES.html"><i class="fas fa-search text-extra-dark-gray"
                                             aria-hidden="true"></i></a>
                                 </div>
                             </div>
-                            <a href="madrid_ES.html">
+                            <a href="vagos_ES.html">
                                 <figcaption class="bg-white">
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box align-middle">
                                             <div class="portfolio-hover-content position-relative">
                                                 <span
-                                                    class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Madrid</span>
+                                                    class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Vagos</span>
                                             </div>
                                         </div>
                                     </div>
@@ -576,17 +576,17 @@ class OtherProjects extends HTMLElement{
                             <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
                                 <img src="images/projects/Madrid/Madrid-Cover.jpg" alt="Madrid" />
                                 <div class="portfolio-icon">
-                                    <a href="madrid_ES.html"><i class="fas fa-search text-extra-dark-gray"
+                                    <a href="vagos_ES.html"><i class="fas fa-search text-extra-dark-gray"
                                             aria-hidden="true"></i></a>
                                 </div>
                             </div>
-                            <a href="madrid_ES.html">
+                            <a href="vagos_ES.html">
                                 <figcaption class="bg-white">
                                     <div class="portfolio-hover-main text-center">
                                         <div class="portfolio-hover-box align-middle">
                                             <div class="portfolio-hover-content position-relative">
                                                 <span
-                                                    class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Madrid</span>
+                                                    class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase d-block">Vagos</span>
                                             </div>
                                         </div>
                                     </div>
